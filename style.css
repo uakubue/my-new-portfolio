@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    
+}
+/* CONTAINER SECTION */
+#container{
+    background-image: url("image/bgdark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+
+/* THIS IS THE HEADER SECTION */
+
+/* Logo section */
+#logodiv {
+    font-size: 20px;
+    padding: 70px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+    
+}
+
+#logodiv .logo a{
+    text-decoration: none;
+    color: rgb(235, 158, 16);
+}
+
+
+.span-a{
+    color: rgb(243, 8, 243);
+    font-style: italic;
+    font-family: sans-serif;
+    
+}
+
+/* This is the navbar section START*/
+#navbar{
+    display: flex;
+    justify-content: end;
+   
+    
+    
+}
+
+#navbar a{
+    position: relative;
+    display: flex;
+    font-family: sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(209, 129, 9);
+    font-size: 17px;
+    transition: 0.7s;
+    
+}
+
+
+#navbar a:hover{
+    font-size: 17px;
+    color: white;
+    
+
+}
+
+#navbar a.active{
+    font-size: 17px;
+    color: white;
+    
+}
+
+/* THis is the Navabr section END */
+
+/* info section */
+
+.infobox .homeinfo{
+    display: block;
+    float: right;
+    padding: 70px 180px;
+}
+
+.infobox img{
+    padding: 30px 30px;
+    
+}
+
+span{
+    color: red;
+    font-family: 'Lucida Sans';
+}
+
+.intro{
+    color: blueviolet;
+}
+
+.homeinfo{
+    color: aliceblue;
+    text-align: center;
+    justify-content: end;
+     
+}
+
+.homeinfo h1{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.homeinfo p{
+    padding: 9px;
+}
+.homeinfo h4{
+    padding: 9px;
+}
+
+.name{
+    font-weight: bold;
+    
+}
+
+/* This is the icon styling section START*/
+
+.cont{
+    color: white;
+    padding: 20px 20px;
+}
+
+.icon-section{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    
+}
+
+.icon-section1{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.icon-section .telegram i{
+    padding: 30px;
+    color: rgb(4, 136, 224);
+    
+}
+.icon-section .facebook i{
+    padding: 30px;
+    color: #0672b9;
+}
+.icon-section .twitter i{
+    padding: 30px;
+    color: aqua;
+}
+
+/*  */
+.icon-section1 .telegram i{
+    padding: 30px;
+    color: rgb(23, 135, 228);
+    
+}
+.icon-section1 .facebook i{
+    padding: 30px;
+    color: #0672b9;
+}
+.icon-section1 .twitter i{
+    padding: 30px;
+    color: aqua;
+}
+/* Hover section */
+/* icon section */
+.icon-section .telegram i:hover{
+    color: rgb(75, 75, 72);
+    transition: 0.8s;
+}
+.icon-section .facebook i:hover{
+    color: rgb(75, 75, 72);
+    transition: 0.8s
+}
+.icon-section .twitter i:hover{
+    color: rgb(75, 75, 72);
+    transition: 0.8s
+}
+/* icon section1  */
+.icon-section1 .telegram i:hover{
+    color: rgb(75, 75, 72);
+    transition: 0.8s
+}
+.icon-section1 .facebook i:hover{
+    color: rgb(75, 75, 72);
+    transition: 0.8s
+}
+.icon-section1 .twitter i:hover{
+    color: rgb(75, 75, 72);
+    transition: 0.8s
+}
+
+
+/* Hover section END */
+
+/* This is the icon styling section END*/
+
+/* This is Myprojects styling section START */
+.project-main-div{
+    color: white;
+    padding: 20px;
+}
+
+.sites{
+    padding: 30px;
+}
+.sites a{
+    padding: 20px;
+}
+.sites a img{
+    padding: 20px;
+}
+
+/* Sites Hover section START*/
+.shot-a1{
+    opacity: 1.0;
+    transition: 0.7s;
+}
+.shot-a2{
+    opacity: 1.0;
+    transition: 0.7s;
+}
+.shot-b1{
+    opacity: 1.0;
+    transition: 0.7s;
+}
+.shot-b2{
+    opacity: 1.0;
+    transition: 0.7s;
+}
+/* Hover */
+.shot-a1:hover{
+    opacity: 0.6;
+    
+}
+.shot-a2:hover{
+    opacity: 0.6;
+}
+.shot-b1:hover{
+    opacity: 0.6;
+}
+.shot-b2:hover{
+    opacity: 0.6;
+}
+/* Sites Hover section END */
+
+/* This is Myprojects styling section END */
+
+/* THIS IS THE MAIN SECTION STYLING START */
+/* my profile styling */
+.myprofile{
+    position: relative;
+    color: blanchedalmond;
+    padding: 40px 40px;
+}
+
+.my-r{
+    padding: 30px;
+}
+
+#gallary{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    color: azure;
+}
+#gallary h1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#gallary div a{
+    padding: 20px;
+}
+
+section{
+    color: white;
+    padding: 20px;
+    border: 0px solid transparent;
+}
+section h1{
+    padding: 10px;
+}
+section p{
+    padding: 20px;
+}
+
+
+
+/* This is my contact styling section start*/
+
+/* This is the Address section START */
+.addre{
+    background-color: rgb(222, 225, 228);
+    padding: 30px;
+    display: inline-block;
+    line-height: 30px;
+    line-clamp: 20px;
+    border-radius: 10px;
+    margin: 40px;
+}
+.home{
+    color: rgb(11, 89, 179);
+}
+.envelop{
+    color: red;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* This is the Address section END */
+
+/* THIS IS THE FOOTER SECTION */
+.footer-content{
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    padding: 10px;
+    
+}
+
+.container .footer-content{
+    text-align: center;
+}
+
+/* MEDIAQUERY SECTION */
+
+@media screen and(max-width:500px){
+    #navbar{
+        display: none;
+
+    }
+}
+
